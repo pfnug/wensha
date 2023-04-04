@@ -1,0 +1,21 @@
+.name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: #f0f0f0; /* Hintergrundfarbe anpassen */
+    border: 2px solid #000; /* Rahmendicke und Farbe anpassen */
+  }
+  
+  .name-container h1 {
+    font-size: 48px; /* Schriftgröße anpassen */
+  }
+  .wishTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
